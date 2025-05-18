@@ -1,0 +1,180 @@
+@media (max-width: 1024px) {    
+    /* static */ 
+    .pad-top {padding-top: 2rem;}
+    .pad-bottom {padding-bottom: 2rem;}
+    .mg-top {margin-top: 2rem;}
+    .mg-bottom {margin-bottom: 2rem;} 
+   
+    .contact-input{margin-bottom: 15px;}
+    .flex-cus,.row-video, .row-20 {margin-left: -5px;margin-right: -5px;}
+    .mg-cus,.mg-video, .col-20 {padding-left: 5px;padding-right: 5px;}
+    .content-text img {height: auto !important;}   
+    .title-detail-main {font-size: 20px;} 
+    .title-contact span{font-size: 20px;}
+    /* menu */
+    .menu,.product-tool a span,.js-facebook-messenger-box,.btn-frame,.search-pc{display: none;}
+    .menu-res {display: block;}
+ 
+    .search-res .icon-search{color: var(--color-dark);}
+
+    /* sản phẩm */
+    .btn-product{font-size: 10px;text-transform: capitalize;gap: 3px;font-weight: 400; width: calc(50% - 3px / 2);border-radius: 0px;}
+    .btn-product span, 
+    .btn-product.cart-buy span::after, 
+    .btn-product.cart-add span::after,  
+    .hover3:hover .btn-product.cart-buy span::after,
+    .btn-product.cart-buy:hover span::after,
+    .hover3:hover .btn-product.cart-add span::after,
+    .btn-product.cart-add:hover span::after{width: 15px;height: 15px;}
+
+    /* giới thiệu */
+    .title-aboutus h3{font-size: 35px;}
+    .desc-aboutus.text-split{-webkit-line-clamp: 6;}
+
+
+    /* thực đơn */
+    .bgPriceboard{width: 100%;padding: 0;background: unset;} 
+    .f-flipbook .turn-prev{right: calc(100% - 20px);right: -moz-calc(100% - 20px);right: -webkit-calc(100% - 20px);}
+    .f-flipbook .turn-next{left: calc(100% - 20px);left: -moz-calc(100% - 20px);left: -webkit-calc(100% - 20px);}
+    /* tiêu chí */
+    #counter{font-size: 32px;}
+    .criteria-name {font-size: 14px;}
+    
+    /* bán chạy */
+    .bgbestseller{width: unset;}
+    .bestseller-name {font-size: 40px;}
+
+    /* form đk */
+    .bgform {padding: 100px 50px 20px;border-radius: 50% 50% 0% 0% / 40% 40% 0% 0%;}
+
+    /* footer */
+    .name-company{font-size: 40px;}
+}
+
+@media (max-width: 992px) {
+	.othernews{position: initial;} 
+    .time-news {display: none;}
+    .copyright,.statistic {width: 100%;text-align: center;}    
+}
+
+@media (max-width: 768px) {  
+    /* static */
+    .title-main{margin-bottom: 1rem;}
+    .title-main span{font-size: 40px;}
+    .logo-head{display: none;}
+    .padding50{padding: 30px 0;}
+
+    .breadCrumbs .wrap-ser-b{padding: 120px 0;} 
+    .breadCrumbs .wrap-ser-b::before{position: absolute;content: '';width: 100%;height: 100%;top: 0;left: 0;background: #5D702F99;backdrop-filter: blur(3px);}
+    .bg_breadCrumbs{background: unset;padding: 0px;}
+    /* tin tức */
+    .pic-news {width: 40%;}
+	.info-news{width: 60%;padding-left: 10px;}
+	.name-news{font-size: 15px;}  
+ 
+    /* giới thiệu */
+    .image-aboutus-pc{display: none;}
+    .image-aboutus-mobile{display: block;}
+
+    /* tiêu chí */
+    .grid_criteria{display: none;}
+    .bgcriteria{display: block;}
+    .criteria_decor2:last-child:before{display: unset;}
+    .criteria_decor2::before, .criteria_decor1::before{right: -50px;} 
+
+    /* feedback */
+    .bg-feedback{margin-bottom: 2rem;}
+
+    /* form đk */
+    .bgform {padding: 100px 70px 20px;border-radius: 50% 50% 0% 0% / 60% 60% 0% 0%;}
+    
+    /* thực đơn */
+    .f-flipbook .turn-prev{right: calc(100% - 50px);right: -moz-calc(100% - 50px);right: -webkit-calc(100% - 50px);}
+    .f-flipbook .turn-next{left: calc(100% - 50px);left: -moz-calc(100% - 50px);left: -webkit-calc(100% - 50px);}
+    
+    /* bán chạy */ 
+    .bestseller-name {font-size: 30px;}
+    
+    /* sản phẩm */
+    .price-new,.price-product{font-size: 16px;}   
+    .left-pro-detail,.right-pro-detail {width: 100%;margin: 0px;}
+    .left-pro-detail, .top-contact .article-contact {margin-bottom: 30px;}
+
+    .btn-product {font-size: 9px;}
+    .cats-owl.list-hot {width: 90%;margin-bottom: 20px;}
+    
+    /* album ảnh */
+    .grid-album {grid-template-columns: repeat(13,1fr);gap: 3px;}
+    .w-album::before { bottom: 0%;right: 10%;width: 101px;height: 115px;}
+    .album1, .album2{grid-row: 4 span;} 
+    .album3{grid-row: 3 span;}
+
+    .grid-album1{display: grid;grid-template-columns: repeat(6,1fr);gap: 5px;} 
+    /* footer */
+    .mgb-res, .mb-res, .footer-news{margin-bottom: 1rem;}
+    .logo-footer-pc{display: none;}
+    .logo-footer-mobile{display: block;}
+
+    #footer-map,.footer-article .wrap-content::before{border-radius: 0;}
+    .scrollToTop{bottom: 100px;}
+}
+
+@media (max-width: 576px) {
+    /* static */
+	.toast-cus{left: 5px;width: calc(100% - 10px);}
+    .box-readmore {width: calc(100% - 5px);} 
+    .top-contact .form-contact .button-contact .file-contact span b {max-width: 105px;} 
+    .toolbar .count-cart { right: 0px;width: 15px;height: 15px;line-height: 15px;}
+    
+    .breadCrumbs .wrap-ser-b{padding: 50px 0;}  
+    .title-danhmuc{font-size: 30px;}
+
+    .title-main{margin-bottom: 1rem;}
+    .title-main span{font-size: 31px;}
+    .criteria-name{font-size: 14px;}
+
+    /* head */
+    .hotline-mail{display: none;}
+   
+    /* bán chạy */ 
+    .bestseller-name {font-size: 20px;}
+    
+    /* sản phẩm */
+    .price-new,.price-product{font-size: 14px;}
+    .cart-pro-detail{flex: unset;width: 100%;margin-left:0;margin-top: 5px;}
+
+    .cats-owl.list-hot {width: 100%;margin-bottom: 10px;padding: 0;}
+    .choose_list .choose_item{margin: 0;font-size: 14px;}
+   
+    /* tin tức */
+    .desc-news.text-split{-webkit-line-clamp: 3;}
+    /* album ảnh */ 
+    .grid-album{display: none;}
+    .bg-album{display: block;}
+    .w-album::before {bottom: 0%;right: 5%;width: 65px;height: 70px;}
+    .w-album::after {position: absolute;content: '';top: -5%;left: 10%;width: 100px;height: 100px;}
+    
+    .name-story{font-size: 13px;font-family: SVN-Poppins;margin: 0 10px;padding: 5px;}
+    /* thực đơn */ 
+    .w-priceboard .wrap-content::after {position: absolute;content: '';top: 20%;width: 100px;height: 129px;}
+    .w-priceboard .wrap-content::before {display: none;}
+    .f-flipbook button{width: 30px;height: 30px;font-size: 35px;}
+    .f-flipbook .turn-prev{right: calc(100% - 25px);right: -moz-calc(100% - 25px);right: -webkit-calc(100% - 25px);}
+    .f-flipbook .turn-next{left: calc(100% - 25px);left: -moz-calc(100% - 25px);left: -webkit-calc(100% - 25px);}
+    /* feedback */
+    .bg-feedback .title-main span {font-size: 30px;}
+   
+    /* giới thiệu */
+    .title-aboutus h3{font-size: 35px;}
+    .image-aboutus-pc{display: block;}
+    .image-aboutus-mobile{display: none;}
+
+    /* đăng ký nhận tin */
+    .bgform {padding: 40px 10px;border-radius: 25px;} 
+    .title-form span{font-size: 35px;}
+    /* tiêu chí */
+    .criteria-image{margin-bottom: 0.5rem;}
+
+    /* footer */ 
+    .logo-footer {width: 80%;}
+}

@@ -1,0 +1,37 @@
+/* ../fonts/ */ 
+
+@font-face {
+    font-family: 'SVN-Poppins';
+    src: url('../fonts/SVN-Poppins.html') format('woff2'),
+        url('../fonts/SVN-Poppins.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-PoppinsB';
+    src: url('../fonts/SVN-PoppinsBold.html') format('woff2'),
+        url('../fonts/SVN-PoppinsBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-PoppinsM';
+    src: url('../fonts/SVN-PoppinsMedium.html') format('woff2'),
+        url('../fonts/SVN-PoppinsMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '1FTV NOVE';
+    src: url('../fonts/1FTVNOVE.html') format('woff2'),
+        url('../fonts/1FTVNOVE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
